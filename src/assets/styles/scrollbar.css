@@ -1,0 +1,17 @@
+#cards {
+  overflow-y: auto;  /* Enable vertical scrolling */
+  scrollbar-width: thin;
+  scrollbar-color: black #f6f7f8; 
+}
+
+/* Track */
+#cards::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+#cards::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}

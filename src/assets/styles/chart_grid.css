@@ -1,0 +1,15 @@
+.chartgrid_div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+  }
+  
+  .chartgrid_div .gridchild_div {
+    /* padding: 0.8rem; */
+    border-radius: 0.6rem;
+  }
+  
+  .chartgrid_div .gridchild_div:nth-child(1) {
+    grid-column: 1/4;
+    grid-row: 1/3;
+  }
